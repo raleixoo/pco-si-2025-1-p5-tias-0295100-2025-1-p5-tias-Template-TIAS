@@ -3,7 +3,12 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+A equipe adotou uma metodologia de trabalho colaborativa baseada em reuniões semanais nas aulas para planejamento e revisão das tarefas. Inicialmente, o problema foi discutido em grupo e dividido em partes menores, atribuídas a diferentes membros da equipe de acordo com suas habilidades.
+
+Para o desenvolvimento, utilizamos o GitHub como ambiente principal para controle de versão e centralização do código-fonte. A estrutura do repositório foi organizada com uma branch principal (main) e branches auxiliares para o desenvolvimento de funcionalidades específicas. Os commits seguiram uma padronização de mensagens para facilitar o entendimento do histórico de alterações.
+
+Como ambientes de desenvolvimento, utilizamos o Visual Studio Code. A comunicação da equipe foi feita principalmente via WhatsApp e Discord, e a organização das tarefas foi realizada por meio de um consenso do gruppo.
+Esse conjunto de ferramentas e processos possibilitou uma boa organização da equipe e um acompanhamento contínuo da evolução do projeto.
 
 
 ## Controle de versão
@@ -61,10 +66,12 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Matheus        | Introdução | 01/02/2025     | 07/02/2025 | ✔️    | 05/02/2025      |
+| Gabriel      | Objetivos    | 03/02/2025     | 10/02/2025 |  ✔️    |   12/02/2025               |
+| Arthur        | Documentação | 02/02/2025     | 14/02/2025 |  ✔️     |    14/02/2025             |
+| Guilherme        | Personas 1  |    01/01/2025        | 12/02/2025 | ✔️    | 12/02/2025       |
+| Raul        |  Histórias de usuário  |    01/01/2025       | 12/02/2025 |  ✔️    |   12/02/2025    |
+| Catarina       | Documentação  |    01/01/2025        | 12/02/2025 |  ✔️    |   12/02/2025    |
 
 #### Sprint 2
 
@@ -72,11 +79,12 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
-
+| Gabriel        | Página inicial   | 01/02/2025     | 07/03/2025 | ✔️    | 05/02/2025      |
+| Catarina       | CSS unificado    | 03/02/2025     | 10/03/2025 | ✔️    |                 |
+| Arthur        | Página de login  | 01/02/2025     | 07/03/2025 | ✔️     |                 |
+| Catarina       | Script de login  |  01/01/2025    | 12/03/2025 | ✔️    |       |
+| Guilherme        | Personas 1  |    01/01/2025        | 12/03/2025 | ✔️    |       |
+| Raul        | Personas 1  |    01/01/2025        | 12/03/2025 | ✔️    |       |
 
 Legenda:
 - ✔️: terminado
