@@ -1,42 +1,58 @@
 # Plano de testes de software
 
-<span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
+O plano de testes de software do sistema EcoDump foi elaborado a partir da especificação funcional do projeto, visando garantir que os requisitos levantados estejam devidamente implementados e funcionando conforme esperado. A seguir, são apresentados os principais casos de teste, com seus respectivos requisitos associados, passos de execução e critérios de êxito.
 
-O plano de testes de software é gerado a partir da especificação do sistema e consiste em casos de teste que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. Apresente os cenários de teste utilizados na realização dos testes da sua aplicação. Escolha cenários de teste que demonstrem os requisitos sendo satisfeitos.
+Todos os testes foram executados por integrantes da equipe de desenvolvimento e validados por usuários reais da empresa Alternativa Transportes LTDA, representando os perfis de operadores, administradores e gestores.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico, o grupo deve detalhar quais funcionalidades foram avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s) requisito(s) associado(s) a cada um deles esteja(m) correto(s) — de acordo com o que foi definido na <a href="02-Especificacao.md">Especificação do projeto</a>.
-
-Por exemplo:
-
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
+| **Caso de teste**  | **CT-001 – Cadastrar nova caçamba**  |
 |:---: |:---: |
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-| Critério de êxito | - O cadastro foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+| Requisito associado | RF-001 – Permitir o registro de uma nova caçamba no sistema com dados como localização, capacidade, data de instalação e status. |
+| Objetivo do teste | Verificar se o usuário consegue cadastrar corretamente uma nova caçamba no sistema. |
+| Passos | - Acessar o sistema EcoDump no navegador; - Efetuar login como usuário autenticado; - Navegar até a seção “Cadastro de Caçambas”; - Preencher os campos obrigatórios (localização, capacidade, status, data de instalação);
+Clicar em “Salvar”. |
+| Critério de êxito | - A caçamba é exibida na lista de caçambas cadastradas com os dados informados. |
+| Responsável pela elaboração do caso de teste | Arthur Braga Ribeiro |
 
 <br>
 
-| **Caso de teste**  | **CT-002 – Efetuar login**  |
+| **Caso de teste**  | **CT-002 – Editar informações de uma caçamba**  |
 |:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do teste | Verificar se o usuário consegue realizar login. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Login" |
-| Critério de êxito | - O login foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+| Requisito associado |  RF-002 – Permitir a alteração dos dados de uma caçamba já cadastrada. |
+| Objetivo do teste | Garantir que o sistema permita editar informações como status ou localização de uma caçamba.|
+| Passos | - Acessar o sistema EcoDump; - Efetuar login como administrador; - Navegar até a lista de caçambas; - Selecionar uma caçamba e clicar em “Editar”; - Alterar o campo “status” para “em manutenção”; - Salvar a alteração. |
+| Critério de êxito | - A alteração é refletida na listagem e salva no banco de dados.. |
+| Responsável pela elaboração do caso de teste | Arthur Braga Ribeiro. |
 
+<br>
 
-## Ferramentas de testes (opcional)
+| **Caso de teste**  | **CT-003 – Buscar caçambas com filtros**  |
+|:---: |:---: |
+| Requisito associado | RF-004 – Permitir a pesquisa de caçambas usando filtros como localização, capacidade e status. |
+| Objetivo do teste |Verificar se o sistema retorna corretamente os resultados filtrados conforme os critérios.|
+| Passos |Acessar o sistema; - Efetuar login como usuário autenticado; - Ir à página de listagem de caçambas; - Utilizar o filtro “Localização: Contagem” e “Status: disponível”;
+Clicarzem “Buscar”.
+Critério de êxito: A lista apresenta apenas as caçambas que correspondem aos filtros aplicados.
+Responsável pela elaboração do caso de teste: Arthur Braga Ribeiro |
+| Critério de êxito | - A lista apresenta apenas as caçambas que correspondem aos filtros aplicados.e | Arthur Braga Ribeiro. |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links úteis**:
-> - [IBM - criação e geração de planos de teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e técnicas de testes ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de software: conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e geração de planos de teste de software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<br>
+
+| **Caso de teste**  | **CT-004 – Visualizar localização em mapa interativo**  |
+|:---: |:---: |
+| Requisito associado |  RF-009 – Exibir a localização das caçambas em um mapa interativo. |
+| Objetivo do teste |  Validar se as caçambas cadastradas são exibidas corretamente no mapa com seus respectivos marcadores.|
+| Passos |Efetuar login no sistema; - Acessar a seção “Mapa de Caçambas”;
+Verificar se o mapa é exibido; - Confirmar se as caçambas são exibidas com marcadores de status|
+| Critério de êxito | - Todas as caçambas cadastradas aparecem no mapa com suas localizações corretas. |
+| Responsável pela elaboração do caso de teste | Arthur Braga Ribeiro. |
+
+<br>
+
+| **Caso de teste**  | **CT-002 – Gerar relatório de uso das caçambas**  |
+|:---: |:---: |
+| Requisito associado |  Gerar relatórios sobre o uso das caçambas, com exportação para PDF ou CSV.|
+| Objetivo do teste | Verificar se o administrador consegue gerar e exportar relatórios com dados precisos.|
+| Passos | Acessar o sistema como administrador; - Navegar até a área de relatórios; - Escolher o intervalo de datas e status; - Clicar em “Gerar relatório”; - Selecionar “Exportar como PDF”. |
+| Critério de êxito | O sistema gera e permite o download do relatório contendo os dados esperados. |
+| Responsável pela elaboração do caso de teste | Arthur Braga Ribeiro. |
