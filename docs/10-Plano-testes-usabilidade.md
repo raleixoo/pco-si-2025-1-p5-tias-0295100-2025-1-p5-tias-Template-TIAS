@@ -9,7 +9,7 @@ Avaliar a eficiência, eficácia e satisfação dos usuários ao interagir com o
 |   3           | Você é um funcionário que deseja lançar o tipo e a quantidade de resíduos descartados em uma caçamba. |
 | 4             | Você é um gestor e precisa gerar um relatório com o histórico de uso das caçambas nos últimos 30 dias. |
 
-Critérios de Seleção dos Participantes
+**Critérios de Seleção dos Participantes**
 Foram convidados 4 participantes com perfis representativos das personas do sistema:
 
 2 funcionários operacionais com pouca familiaridade com tecnologia
@@ -20,7 +20,7 @@ Foram convidados 4 participantes com perfis representativos das personas do sist
 
 Todos os participantes possuem experiência prática no uso do processo real (manual) de gerenciamento de caçambas.
 
-Procedimentos do Teste
+**Procedimentos do Teste**
 Tipo de teste: Presencial
 
 Método de avaliação: Observação direta e aplicação de questionário pós-tarefa
@@ -29,7 +29,7 @@ Local: Instalações da empresa Alternativa Transportes LTDA
 
 Condutores do teste: Equipe de desenvolvimento e extensionistas orientadores
 
-Dados Coletados
+**Dados Coletados**
 Para cada tarefa, serão coletadas as seguintes métricas:
 
 Taxa de sucesso: O participante conseguiu ou não realizar a tarefa sem ajuda?
@@ -42,7 +42,7 @@ Número de erros: Quantos desvios do fluxo correto aconteceram?
 
 Satisfação subjetiva: Avaliação em escala: Péssimo / Ruim / Regular / Bom / Ótimo
 
-Etapas da Sessão de Teste
+**Etapas da Sessão de Teste**
 Apresentação do sistema e dos objetivos do teste (sem demonstrações práticas)
 
 Instruções gerais sobre o que será avaliado
@@ -55,7 +55,7 @@ Aplicação de questionário de satisfação ao final
 
 Encerramento e agradecimento
 
-Recursos Demandados
+**Recursos Demandados**
 Ambiente com computador e acesso ao sistema EcoDump
 
 Cronômetro (aplicativo)
@@ -66,7 +66,7 @@ Questionários impressos ou digitais
 
 Observador anotador
 
-Métricas Utilizadas
+**Métricas Utilizadas**
 Tempo médio por tarefa
 
 Taxa de sucesso (%) por cenário
@@ -77,5 +77,5 @@ Frequência de erros
 
 Média da satisfação subjetiva
 
-Privacidade e LGPD
+**Privacidade e LGPD**
 Conforme diretrizes da Lei Geral de Proteção de Dados (LGPD), nenhum dado pessoal ou sensível dos participantes foi coletado. Todos os dados foram registrados de forma anônima e usados exclusivamente para fins de avaliação de usabilidade.
