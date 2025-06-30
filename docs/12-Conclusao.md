@@ -1,7 +1,5 @@
 # Conclusão
 
-Apresente, aqui, a conclusão do trabalho, que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo.
-
 O desenvolvimento do sistema EcoDump permitiu a modernização e automação dos processos de gestão de caçambas e resíduos sólidos na empresa Alternativa Transportes LTDA, substituindo métodos manuais e propensos a falhas por uma plataforma digital eficiente, segura e intuitiva. Como principais resultados, destacam-se a melhoria no controle operacional, a rastreabilidade das caçambas em tempo real, a organização sistematizada dos tipos e volumes de resíduos descartados, além da agilidade na geração de relatórios gerenciais e documentos legais. Esses avanços contribuíram diretamente para a redução de erros humanos, o aumento da produtividade da equipe e a conformidade com normas ambientais e regulatórias.
 
 Entretanto, algumas limitações ainda foram identificadas na solução atual. A ausência de integração com tecnologias de geolocalização automatizada, como GPS ou RFID, limita o rastreamento preciso das caçambas fora das dependências da empresa. Além disso, o sistema depende do registro manual por parte dos funcionários, o que pode ainda acarretar falhas caso não haja treinamento adequado ou comprometimento no uso contínuo da plataforma.
